@@ -1,0 +1,25 @@
+# Sensitive files
+datadog-agent.yaml
+*.secret.yaml
+secrets/
+
+# Environment files
+.env
+.env.local
+*.key
+
+# Screenshots may contain sensitive info (review before committing)
+# screenshots/
+
+# Kubernetes config
+kubeconfig
+*.kubeconfig
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
